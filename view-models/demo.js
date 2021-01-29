@@ -4,6 +4,8 @@ import { DemoRequestModel } from '../models/demo'
 
 const demoRequestModel = new DemoRequestModel()
 
+// 用法请查看 /pages/example/demo/index/index.js
+
 // getTemp用法
 export async function getTempDemo(param={}) {
   const res = await getTemp(demoRequestModel.getDemo(param))

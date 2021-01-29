@@ -1,2 +1,6 @@
 <!--pages/example/demo/show/index.wxml-->
 <text>pages/example/demo/show/index.wxml</text>
+
+
+
+<view>详情页目录推荐命名：show</view>

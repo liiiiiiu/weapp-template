@@ -84,6 +84,11 @@
             <view class="fb">Mixin</view>
           </view>
         </view>
+        <view class="demo-item" bindtap="displayAPI">
+          <view class="demo-item-inner">
+            <view class="fb">接口配置</view>
+          </view>
+        </view>
         <view class="demo-item" bindtap="displayLogin">
           <view class="demo-item-inner">
             <view class="fb">登录流程</view>

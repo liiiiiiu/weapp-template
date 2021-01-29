@@ -1,2 +1,6 @@
 <!--pages/example/demo/form/index.wxml-->
 <text>pages/example/demo/form/index.wxml</text>
+
+
+
+<view>表单页目录推荐命名：form</view>

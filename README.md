@@ -35,4 +35,4 @@ git clone https://gitee.com/liiiiiiu/weapp-template.git
 
 ## 使用
 
-详细使用参考[文档](https://developers.weixin.qq.com/miniprogram/dev/extended/weui)
+详细使用请导入项目后查看小程序首页

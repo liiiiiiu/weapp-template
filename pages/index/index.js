@@ -35,27 +35,32 @@ Page({
   },
 
   displayBaseCSS() {
-    $info({ title: '请查看base.wxss' })
+    $info({ title: '请查看/styles/base.wxss' })
   },
 
   displayBaseIcon() {
-    $info({ title: '请查看assets/base' })
+    $info({ title: '请查看/assets/base' })
   },
 
   displayUtilJS() {
-    $info({ title: '请查看util.js' })
+    $info({ title: '请查看/utils/util.js' })
   },
 
   displayMixin() {
-    $info({ title: '请查看README.md' })
+    $info({ title: '请查看/example/demo/index/index.js' })
+  },
+
+  displayAPI() {
+    $info({ title: '请查看/configs/evn.js' })
   },
 
   displayLogin() {
-    $info({ title: '请查看README.md' })
+    $info({ title: '请查看/models/login.js' })
   },
+  
 
   displayVM() {
-    $info({ title: '请查看README.md' })
+    $info({ title: '请查看/example/demo/index/index.js' })
   },
 
   displayDeveloping() {
