@@ -16,6 +16,10 @@ const Router = {
   app_index: (param={}, type='switchTab') => {
     return resolveRouter('/pages/index/index', param, type)
   },
+  // 我的首页
+  my_index: (param={}, type='switchTab') => {
+    return resolveRouter('/pages/my/index/index', param, type)
+  },
   // 404
   page_404: (param={}, type='navigateTo') => {
     return resolveRouter('/pages/404/index', param, type)

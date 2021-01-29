@@ -14,7 +14,7 @@
         <view>Router.page_404()</view>
       </view>
       <view class="demo-item" bindtap="onPage404None">
-        <view class="mb14 f24 c-fg3">拦截跳转，并返回页面路径</view>
+        <view class="mb14 f24 c-fg3">不跳转，并返回页面路径</view>
         <view>Router.page_404({}, 'none')</view>
         <view wx:if="{{ path }}" class="mt30 c-orange">{{ path }}</view>
       </view>

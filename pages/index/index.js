@@ -26,6 +26,10 @@ Page({
     Router.page_auth()
   },
 
+  onMyIndex() {
+    Router.my_index()
+  },
+
   onExampleApi() {
     wx.navigateTo({ url: '/pages/example/api/index' })
   },
