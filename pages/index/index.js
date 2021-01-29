@@ -58,6 +58,10 @@ Page({
     $info({ title: '请查看README.md' })
   },
 
+  displayDeveloping() {
+    $info({ title: '开发中' })
+  },
+
   copy(e) {
     const text = parseDataset(e)['text']
     wx.setClipboardData({

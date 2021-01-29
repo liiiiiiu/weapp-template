@@ -29,19 +29,19 @@
             <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
           </view>
         </view>
-        <view class="demo-item">
+        <view class="demo-item" bindtap="displayDeveloping">
           <view class="demo-item-inner">
             <view class="fb">购物车</view>
             <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
           </view>
         </view>
-        <view class="demo-item">
+        <view class="demo-item" bindtap="displayDeveloping">
           <view class="demo-item-inner">
             <view class="fb">我的</view>
             <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
           </view>
         </view>
-        <view class="demo-item">
+        <view class="demo-item" bindtap="displayDeveloping">
           <view class="demo-item-inner">
             <view class="fb">订单</view>
             <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
