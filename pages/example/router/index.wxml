@@ -1,0 +1,27 @@
+<!--pages/example/router/index.wxml-->
+<view class="container">
+  <view class="gutter30">
+    <view class="demo-list">
+      <view class="demo-title">
+        路由 | router.js
+      </view>
+      <view class="demo-item" bindtap="onIndex">
+        <view class="mb14 f24 c-fg3">跳转首页</view>
+        <view>Router.app_index()</view>
+      </view>
+      <view class="demo-item" bindtap="onPage404">
+        <view class="mb14 f24 c-fg3">跳转404页</view>
+        <view>Router.page_404()</view>
+      </view>
+      <view class="demo-item" bindtap="onPage404None">
+        <view class="mb14 f24 c-fg3">拦截跳转，并返回页面路径</view>
+        <view>Router.page_404({}, 'none')</view>
+        <view wx:if="{{ path }}" class="mt30 c-orange">{{ path }}</view>
+      </view>
+      <view class="demo-item" bindtap="onPageAuth">
+        <view class="mb14 f24 c-fg3">自定义传参</view>
+        <view>Router.page_auth({ id: 1, other: 'a' })</view>
+      </view>
+    </view>
+  </view>
+</view>

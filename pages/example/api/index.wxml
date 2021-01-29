@@ -1,0 +1,38 @@
+<!--pages/example/api/index.wxml-->
+<view class="container">
+  <view class="gutter30">
+    <view class="demo-list">
+      <view class="demo-title">
+        交互 | message.js
+      </view>
+      <view class="demo-item" bindtap="displayShowLoading">
+        <view class="mb14 f24 c-fg3">封装wx.showLoading()</view>
+        <view>$showLoading({ title: '登录中' })</view>
+      </view>
+      <view class="demo-item" bindtap="displayHideLoading">
+        <view class="mb14 f24 c-fg3">封装wx.hideLoading()</view>
+        <view>$hideLoading()</view>
+      </view>
+      <view class="demo-item" bindtap="displaySuccess">
+        <view class="mb14 f24 c-fg3">封装wx.showToast()</view>
+        <view>$success({ title: '提交成功', duration: 5000, mask: true }, () => { console.log('success!') })</view>
+      </view>
+      <view class="demo-item" bindtap="displayFail">
+        <view class="mb14 f24 c-fg3">封装wx.showToast()</view>
+        <view>$fail({ title: '提交失败' })</view>
+      </view>
+      <view class="demo-item" bindtap="displayInfo">
+        <view class="mb14 f24 c-fg3">封装wx.showToast()</view>
+        <view>$info({ title: '提交提示' }, '', '', () => { console.log('complete!') })</view>
+      </view>
+      <view class="demo-item" bindtap="displayModal">
+        <view class="mb14 f24 c-fg3">封装wx.showModal()</view>
+        <view>$modal({ title: '确认提交？' }, () => { $success({ title: '提交成功' }) }, () => { $info({ title: '取消提交' }) })</view>
+      </view>
+      <view class="demo-item" bindtap="displayActionSheet">
+        <view class="mb14 f24 c-fg3">封装wx.showActionSheet()</view>
+        <view>$actionSheet(['a', 'b', 'c'])</view>
+      </view>
+    </view>
+  </view>
+</view>

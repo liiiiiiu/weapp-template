@@ -1,0 +1,24 @@
+/* pages/404/index.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.icon {
+  width: 420rpx;
+  height: aut0;
+  margin-top: -16vh;
+}
+
+.btn {
+  height: 82rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  line-height: 1.8;
+  border-radius: 100rpx;
+}

@@ -1,0 +1,6 @@
+<!--pages/500/index.wxml-->
+<view class="container">
+  <image src="/assets/500/500.png" mode="widthFix" class="icon" />
+  <view class="mt50 mb60 c-fg2">服务器异常</view>
+  <button class="b-brand c-white btn" bindtap="onIndex">返回首页</button>
+</view>
