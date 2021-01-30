@@ -2,6 +2,12 @@
   "name": "weapp-template",
   "version": "1.0.0",
   "description": "微信小程序通用代码",
+  "keywords": [
+    "weapp",
+    "miniprogram",
+    "weapp-cli",
+    "weapp-template-cli"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
