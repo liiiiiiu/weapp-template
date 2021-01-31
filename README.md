@@ -1,37 +1,45 @@
 # weapp-template
 
-#### 介绍
+## 介绍
+
 微信小程序通用代码
 
-#### 软件架构
-软件架构说明
+搭配 `WeUI`、`Vant Weapp` 等前端框架使用，可节省大量基础代码开发时间，提升开发效率
 
+## 预览
 
-#### 安装教程
+扫描下方小程序二维码，体验 `weapp-template` 示例：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+<img src="https://i.postimg.cc/bJZjg6VP/qrcode.jpg" width="200" height="200" style="margin-top: 10px;">
 
-#### 使用说明
+## 安装
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 方式一. 通过 npm 安装 (推荐)
 
-#### 参与贡献
+1、全局安装 `weapp-template-cli` 脚手架
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+``` bash
+npm i weapp-template-cli -g
+```
 
+2、进入安装目录，执行命令
 
-#### 特技
+``` bash
+weapp-template-cli i
+```
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+3、打开微信开发者工具，导入生成的项目
+
+### 方式二. 下载代码
+
+直接通过 git 下载 `weapp-template` 源码
+
+```bash
+git clone https://gitee.com/liiiiiiu/weapp-template.git
+```
+
+下载完成后，打开微信开发者工具，导入生成的项目
+
+## 使用
+
+详细使用请导入项目后查看小程序首页
