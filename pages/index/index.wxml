@@ -1,0 +1,129 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="gutter30">
+    <view class="app">
+      <image src="/assets/logo.png" mode="widthFix" class="logo" />
+      <view>
+        <view class="mb20 f40">{{ appName }}</view>
+        <view class="c-fg2">{{ appSlogon }}</view>
+      </view>
+    </view>
+    <view class="demo-list">
+      <view class="demo-title">页面</view>
+      <view class="demo-content">
+        <view class="demo-item" bindtap="onPage404">
+          <view class="demo-item-inner">
+            <view class="fb">404</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="onPage500">
+          <view class="demo-item-inner">
+            <view class="fb">500</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="onPageAuth">
+          <view class="demo-item-inner">
+            <view class="fb">授权</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayDeveloping">
+          <view class="demo-item-inner">
+            <view class="fb">购物车</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="onMyIndex">
+          <view class="demo-item-inner">
+            <view class="fb">我的</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayDeveloping">
+          <view class="demo-item-inner">
+            <view class="fb">订单</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayBaseCSS">
+          <view class="demo-item-inner">
+            <view class="fb">基础CSS</view>
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayBaseIcon">
+          <view class="demo-item-inner">
+            <view class="fb">基础图片</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="demo-list">
+      <view class="demo-title">功能</view>
+      <view class="demo-content">
+        <view class="demo-item" bindtap="onExampleApi">
+          <view class="demo-item-inner">
+            <view class="fb">API</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="onExampleRouter">
+          <view class="demo-item-inner">
+            <view class="fb">路由函数</view>
+            <image src="/assets/base/arrow-right2.png" mode="widthFix" class="icon" />
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayUtilJS">
+          <view class="demo-item-inner">
+            <view class="fb">工具函数</view>
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayMixin">
+          <view class="demo-item-inner">
+            <view class="fb">Mixin</view>
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayAPI">
+          <view class="demo-item-inner">
+            <view class="fb">接口配置</view>
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayLogin">
+          <view class="demo-item-inner">
+            <view class="fb">登录流程</view>
+          </view>
+        </view>
+        <view class="demo-item" bindtap="displayVM">
+          <view class="demo-item-inner">
+            <view class="fb">VM流程</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="demo-list">
+      <view class="demo-title">NPM</view>
+      <view class="demo-content">
+        <view data-text="npm i weapp-template-cli -g" class="demo-item" style="width: 100%; margin-right: 0;" bindtap="copy">
+          <view class="demo-item-inner">
+            <view class="fb c-brand">npm i weapp-template-cli -g</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="demo-list" style="margin-top: 10rpx;">
+      <view class="demo-title">Gitee</view>
+      <view class="demo-content">
+        <view data-text="https://gitee.com/liiiiiiu/weapp-template-cli.git" class="demo-item" style="width: 100%; margin-right: 0;" bindtap="copy">
+          <view class="demo-item-inner">
+            <view class="fb c-brand">https://gitee.com/liiiiiiu/weapp-template-cli.git</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="mt60 mb60 tc">
+      <view class="mb20 f24 c-fg3">此页面仅作演示用</view>
+      <view class="f24 c-fg3">"pages/example" 可自行删除</view>
+    </view>
+  </view>
+</view>

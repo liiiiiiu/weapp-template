@@ -1,0 +1,7 @@
+/**app.wxss**/
+
+@import "./styles/global.wxss";
+
+@import './styles/font-face.wxss';
+
+@import './styles/base.wxss';

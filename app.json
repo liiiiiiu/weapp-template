@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/index/index",
+    "pages/404/index",
+    "pages/500/index",
+    "pages/auth/index",
+    "pages/example/api/index",
+    "pages/example/router/index",
+    "pages/example/demo/index/index",
+    "pages/example/demo/form/index",
+    "pages/example/demo/list/index",
+    "pages/example/demo/show/index"
+  ],
+  "window": {
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weapp Template",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#27cfbe",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "assets/tabbar-home.png",
+        "selectedIconPath": "assets/tabbar-home__active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/index/index",
+        "iconPath": "assets/tabbar-my.png",
+        "selectedIconPath": "assets/tabbar-my__active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "networkTimeout": {
+    "request": 30000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

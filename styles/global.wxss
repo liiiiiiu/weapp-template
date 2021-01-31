@@ -1,0 +1,63 @@
+/* 全局样式 */
+
+page {
+  --color-FG: #000;
+  --color-FG-1: #303133;
+  --color-FG-2: #606266;
+  --color-FG-3: #909399;
+  --color-FG-4: #c0c4cc;
+
+  --color-BRAND: #27cfbe;
+
+  --color-RED: #fa5151;
+  --color-ORANGE: #fa9d3b;
+  --color-YELLOW: #ffc300;
+  --color-GREEN: #91d300;
+  --color-LIGHTGREEN: #95ec69;
+  --color-BLUE: #10aeff;
+  --color-PURPLE: #6467f0;
+  --color-WHITE: #fff;
+  --color-LINK: #576b95;
+  --color-TEXTGREEN: #06ae56;
+}
+
+/* easy normalize */
+
+view, text {
+  font-family: "PingFang Sc",
+                 Helvetica,
+                 Tahoma,
+                 Arial,
+                 "Hiragino Sans GB",
+                 SimSun,
+                 "宋体",
+                 STXihei,
+                 Heiti,
+                 "黑体",
+                 sans-serif;
+  font-size: 26rpx;
+  line-height: 1;
+  font-weight: normal;
+  color: var(--color-FG-1, #000);
+}
+
+image {
+  vertical-align: top;
+}
+
+button::after {
+  border: none;
+  outline: none;
+}
+
+button {
+  overflow: inherit !important;
+}
+
+/* page css */
+
+.container {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}

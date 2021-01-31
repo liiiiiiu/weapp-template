@@ -1,0 +1,15 @@
+<!--pages/auth/index.wxml-->
+<view class="container">
+  <view class="gutter30">
+    <view class="logo">
+      <image src="/assets/logo.png" mode="widthFix" />
+    </view>
+    <view class="mt30">{{ appName }}</view>
+    <button open-type="getUserInfo" class="b-brand c-white btn" bindgetuserinfo="getUserInfo">微信授权</button>
+    <view class="f24 c-fg3">若不授权用户信息，小程序的部分重要功能将无法使用</view>
+  </view>
+</view>
+
+<view class="circle"></view>
+<view class="square"></view>
+<view class="tri"></view>
