@@ -1,0 +1,25 @@
+<!--components/my/selector/index.wxml-->
+  <view class="selector">
+    <scroll-view scroll-x enable-flex class="selector-block">
+      <view data-index="{{ 0 }}" class="{{ selectedHD === 0 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectHD">
+        my-hd-l1
+      </view>
+      <view data-index="{{ 1 }}" class="{{ selectedHD === 1 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectHD">
+        my-hd-l2
+      </view>
+      <view data-index="{{ 2 }}" class="{{ selectedHD === 2 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectHD">
+        my-hd-l3
+      </view>
+    </scroll-view>
+    <scroll-view scroll-x enable-flex class="selector-block">
+      <view data-index="{{ 0 }}" class="{{ selectedBD === 0 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectBD">
+        my-bd-l1
+      </view>
+      <view data-index="{{ 1 }}" class="{{ selectedBD === 1 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectBD">
+        my-bd-l2
+      </view>
+      <view data-index="{{ 2 }}" class="{{ selectedBD === 2 ? 'selector-item__active' : '' }} selector-item" bindtap="handleSelectBD">
+        my-bd-l3
+      </view>
+    </scroll-view>
+  </view>

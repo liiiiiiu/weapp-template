@@ -1,0 +1,86 @@
+/* components/my/body/layout1/index.wxss */
+
+/* 版块 */
+
+.my-bd-section {
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+
+/* flex水平布局 */
+
+.my-bd-flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* 标题 */
+
+.my-bd-section-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 82rpx;
+  border-bottom: 1px solid #e4e7ed;
+}
+
+/* .my-bd-section-title-text {
+  font-size: 28rpx;
+} */
+
+.my-bd-section-secondary-title-text {
+  font-size: 24rpx;
+  color: #909399;
+}
+
+.my-bd-section-title-arrow {
+  width: 14rpx;
+  height: auto;
+  margin-left: 16rpx;
+}
+
+/* 内容 */
+
+.my-bd-section-content {
+  padding: 40rpx 30rpx;
+}
+
+/* 操作 */
+
+.my-bd-operation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50rpx;
+}
+
+.my-bd-operation:last-child {
+  margin-bottom: 0;
+}
+
+.my-bd-operation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding-right: 20rpx;
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+
+.my-bd-operation-icon {
+  width: 58rpx;
+  height: auto;
+  margin-bottom: 24rpx;
+}
+
+.my-bd-operation-text {
+  font-size: 24rpx;
+}

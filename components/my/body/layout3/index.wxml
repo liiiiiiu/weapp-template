@@ -1,0 +1,47 @@
+<!--components/my/body/layout3/index.wxml-->
+<view class="my-bd__l3">
+  <view class="my-bd">
+    <!-- 操作 -->
+    <view class="my-bd-operation">
+      <view class="my-bd-operation-item">
+        <view>
+          <image src="/assets/icon-demo5.png" mode="widthFix"  class="my-bd-operation-icon" />
+        </view>
+        <view>
+          <view class="my-bd-operation-text">文字1</view>
+          <view class="my-bd-operation-secondary-text">辅助文字1</view>
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <view>
+          <image src="/assets/icon-demo6.png" mode="widthFix"  class="my-bd-operation-icon" />
+        </view>
+        <view>
+          <view class="my-bd-operation-text">文字2</view>
+          <view class="my-bd-operation-secondary-text">辅助文字2</view>
+        </view>
+      </view>
+    </view>
+    <!-- 操作 -->
+    <view class="my-bd-operation">
+      <view class="my-bd-operation-item">
+        <view>
+          <image src="/assets/icon-demo7.png" mode="widthFix"  class="my-bd-operation-icon" />
+        </view>
+        <view>
+          <view class="my-bd-operation-text">文字3</view>
+          <view class="my-bd-operation-secondary-text">辅助文字3</view>
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <view>
+          <image src="/assets/icon-demo8.png" mode="widthFix"  class="my-bd-operation-icon" />
+        </view>
+        <view>
+          <view class="my-bd-operation-text">文字4</view>
+          <view class="my-bd-operation-secondary-text">辅助文字4</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,91 @@
+<!--components/my/body/layout1/index.wxml-->
+<view class="my-bd__l1">
+  <view class="my-bd">
+    <!-- 版块 -->
+    <view class="my-bd-section">
+      <!-- 标题 -->
+      <view class="my-bd-section-title">
+        <view class="my-bd-flex-row">
+          <view class="my-bd-section-title-text">版块1</view>
+        </view>
+        <view class="my-bd-flex-row">
+          <text class="my-bd-section-secondary-title-text">查看全部</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-section-title-arrow" />
+        </view>
+      </view>
+      <!-- 内容 -->
+      <view class="my-bd-section-content">
+        <!-- 操作 -->
+        <view class="my-bd-operation">
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo5.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字1</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo6.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字2</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo7.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字3</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo8.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字4</text>
+          </view>
+        </view>
+        <!-- 操作 -->
+        <view class="my-bd-operation">
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo9.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字5</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo10.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字6</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo5.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字7</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo6.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字8</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 版块 -->
+    <view class="my-bd-section">
+      <!-- 标题 -->
+      <view class="my-bd-section-title">
+        <view class="my-bd-section-title__left">
+          <view class="my-bd-section-title-text">版块2</view>
+        </view>
+        <view class="my-bd-section-title__right"></view>
+      </view>
+      <!-- 内容 -->
+      <view class="my-bd-section-content">
+        <!-- 操作 -->
+        <view class="my-bd-operation">
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo7.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字1</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo8.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字2</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo9.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字3</text>
+          </view>
+          <view class="my-bd-operation-item">
+            <image src="/assets/icon-demo10.png" mode="widthFix"  class="my-bd-operation-icon" />
+            <text class="my-bd-operation-text">文字4</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

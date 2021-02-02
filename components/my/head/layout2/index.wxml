@@ -1,0 +1,39 @@
+<!--components/my/head/layout2/index.wxml-->
+<view class="my-hd__l2">
+  <view class="my-hd">
+    <!-- flex水平布局 -->
+    <view class="my-hd-flex-row">
+      <!-- 头像 -->
+      <view class="my-hd-avatar">
+        <open-data type="userAvatarUrl" default-avatar="{{ icon.user_avatar }}" class="my-hd-open-avatar" />
+      </view>
+      <!-- 垂直布局 -->
+      <view class="my-hd-column">
+        <!-- 昵称 -->
+        <view class="my-hd-nickName">
+          <open-data type="userNickName" lang="zh_CN" class="my-hd-open-nickName" />
+        </view>
+        <!-- 标签 -->
+        <view class="my-hd-tag-list">
+          <view class="my-hd-tag-item">标签1</view>
+          <view class="my-hd-tag-item">标签2</view>
+        </view>
+      </view>
+    </view>
+    <!-- 操作 -->
+    <view class="my-hd-operation">
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo1.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字1</text>
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo2.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字2</text>
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo3.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字3</text>
+      </view>
+    </view>
+  </view>
+</view>

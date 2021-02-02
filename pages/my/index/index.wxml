@@ -1,1 +1,16 @@
 <!--pages/my/index/index.wxml-->
+<view class="container">
+  <view class="hd">
+    <my-hd-l1 wx:if="{{ selectedHD === 0 }}" />
+    <my-hd-l2 wx:elif="{{ selectedHD === 1 }}" />
+    <my-hd-l3 wx:elif="{{ selectedHD === 2 }}" />
+  </view>
+  <view class="{{ selectedHD === 2 ? 'bd1' : '' }} {{ (selectedBD === 0 || selectedBD === 2) ? 'gutter20' : '' }} bd">
+    <my-bd-l1 wx:if="{{ selectedBD === 0 }}" />
+    <my-bd-l2 wx:elif="{{ selectedBD === 1 }}" />
+    <my-bd-l3 wx:elif="{{ selectedBD === 2 }}" />
+  </view>
+  <my-ft-l1 />
+  <!-- 选择器 -->
+  <selector bind:selectHD="handleSelectHD" bind:selectBD="handleSelectBD" />
+</view>

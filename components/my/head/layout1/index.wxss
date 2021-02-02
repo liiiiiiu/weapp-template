@@ -1,0 +1,101 @@
+/* components/my/head/layout1/index.wxss */
+
+.my-hd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding: 120rpx 0 80rpx 0;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  box-shadow: 0 12rpx 24rpx rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* 头像 */
+
+.my-hd-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.my-hd-open-avatar {
+  width: 100%;
+  height: 100%;
+}
+
+/* 昵称 */
+
+.my-hd-nickName {
+  margin-top: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.my-hd-open-nickName {
+  font-size: 32rpx;
+}
+
+/* 描述 */
+
+.my-hd-description {
+  font-size: 24rpx;
+  color: #909399;
+}
+
+/* 数据 */
+
+.my-hd-data-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.my-hd-data-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60rpx;
+  margin-left: 60rpx;
+}
+
+.my-hd-data-num {
+  margin-bottom: 20rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+}
+
+.my-hd-data-text {
+  font-size: 24rpx;
+  color: #909399;
+}
+
+/* 操作 */
+
+.my-hd-operation {
+  position: absolute;
+  top: 30rpx;
+  right: 30rpx;
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.my-hd-operation-item {
+  margin-left: 60rpx;
+}
+
+.my-hd-operation-icon {
+  width: 42rpx;
+  height: auto;
+}

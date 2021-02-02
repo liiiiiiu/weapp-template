@@ -1,0 +1,24 @@
+/* components/my/foot/layout1/index.wxss */
+
+/* copyright */
+
+.my-ft-copyright {
+  /* position: fixed;
+  bottom: 60rpx;
+  left: 0;
+  right: 0;
+  z-index: 10; */
+  width: 100%;
+  text-align: center;
+}
+
+.copyright-logo {
+  width: 72rpx;
+  height: auto;
+  margin-bottom: 20rpx;
+}
+
+.copyright-text {
+  font-size: 24rpx;
+  color: #909399;
+}

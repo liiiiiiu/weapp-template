@@ -1,0 +1,46 @@
+<!--components/my/head/layout1/index.wxml-->
+<view class="my-hd__l1">
+  <view class="my-hd">
+    <!-- 头像 -->
+    <view class="my-hd-avatar">
+      <open-data type="userAvatarUrl" default-avatar="{{ icon.user_avatar }}" class="my-hd-open-avatar" />
+    </view>
+    <!-- 昵称 -->
+    <view class="my-hd-nickName">
+      <open-data type="userNickName" lang="zh_CN" class="my-hd-open-nickName" />
+    </view>
+    <!-- 描述 -->
+    <view class="my-hd-description">一些描述</view>
+    <!-- 数据 -->
+    <view class="my-hd-data-list">
+      <view class="my-hd-data-item">
+        <text class="my-hd-data-num">0</text>
+        <text class="my-hd-data-text">关注</text>
+      </view>
+      <view class="my-hd-data-item">
+        <text class="my-hd-data-num">0</text>
+        <text class="my-hd-data-text">粉丝</text>
+      </view>
+      <view class="my-hd-data-item">
+        <text class="my-hd-data-num">0</text>
+        <text class="my-hd-data-text">点赞</text>
+      </view>
+      <view class="my-hd-data-item">
+        <text class="my-hd-data-num">0</text>
+        <text class="my-hd-data-text">收藏</text>
+      </view>
+    </view>
+    <!-- 操作 -->
+    <view class="my-hd-operation">
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo1.png" mode="widthFix"  class="my-hd-operation-icon" />
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo2.png" mode="widthFix"  class="my-hd-operation-icon" />
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo3.png" mode="widthFix"  class="my-hd-operation-icon" />
+      </view>
+    </view>
+  </view>
+</view>

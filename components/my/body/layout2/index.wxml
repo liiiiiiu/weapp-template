@@ -1,0 +1,79 @@
+<!--components/my/body/layout2/index.wxml-->
+<view class="my-bd__l2">
+  <view class="my-bd">
+    <!-- 操作 -->
+    <view class="my-bd-operation">
+      <view class="my-bd-operation-item">
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo5.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字1</text>
+        </view>
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字1</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo6.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字2</text>
+        </view>
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字2</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo7.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字3</text>
+        </view>
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字3</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo8.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字4</text>
+        </view>
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字4</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+    </view>
+    <!-- 操作 -->
+    <view class="my-bd-operation">
+      <view class="my-bd-operation-item">
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo5.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字1</text>
+        </view>
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字1</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+      <view class="my-bd-operation-item">
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <image src="/assets/icon-demo6.png" mode="widthFix"  class="my-bd-operation-icon" />
+          <text class="my-bd-operation-text">文字2</text>
+        </view>
+        <!-- flex水平布局 -->
+        <view class="my-bd-flex-row">
+          <text class="my-bd-operation-secondary-text">辅助文字2</text>
+          <image src="/assets/base/arrow-right1.png" mode="widthFix"  class="my-bd-operation-arrow" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

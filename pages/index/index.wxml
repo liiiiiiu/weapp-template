@@ -112,6 +112,16 @@
       </view>
     </view>
     <view class="demo-list" style="margin-top: 10rpx;">
+      <view class="demo-title">Github</view>
+      <view class="demo-content">
+        <view data-text="https://github.com/liiiiiiu/weapp-template.git" class="demo-item" style="width: 100%; margin-right: 0;" bindtap="copy">
+          <view class="demo-item-inner">
+            <view class="fb c-brand">https://github.com/liiiiiiu/weapp-template.git</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="demo-list" style="margin-top: 10rpx;">
       <view class="demo-title">Gitee</view>
       <view class="demo-content">
         <view data-text="https://gitee.com/liiiiiiu/weapp-template-cli.git" class="demo-item" style="width: 100%; margin-right: 0;" bindtap="copy">
@@ -119,6 +129,12 @@
             <view class="fb c-brand">https://gitee.com/liiiiiiu/weapp-template-cli.git</view>
           </view>
         </view>
+      </view>
+    </view>
+    <view wx:if="{{ mpEnvVersion !== 'release' }}" class="demo-list" style="margin-top: 10rpx;">
+      <view class="demo-title">小程序（长按识别）</view>
+      <view class="demo-content">
+        <image src="/assets/qrcode.jpg" mode="widthFix" show-menu-by-longpress class="qrcode" />
       </view>
     </view>
     <view class="mt60 mb60 tc">

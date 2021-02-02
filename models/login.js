@@ -2,8 +2,8 @@ import { API_URL } from '../configs/env'
 import { getStorageToken, setStorageToken } from '../utils/storage'
 
 /**
- * 登录流程
- * 1、调用 `wx.checkSession` 检查登录态是否过期
+ * 小程序登录流程
+ * 调用 `wx.checkSession` 检查登录态是否过期
  * -- 此登录态逻辑由微信维护
  * -- 详见 https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/wx.checkSession.html
  * -- success 检查token是否存在，token用于和服务端交互

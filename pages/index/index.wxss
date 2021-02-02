@@ -61,3 +61,8 @@
   width: 18rpx;
   height: auto;
 }
+
+.qrcode {
+  width: 240rpx;
+  height: auto;
+}

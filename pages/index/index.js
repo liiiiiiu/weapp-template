@@ -7,7 +7,8 @@ import { parseDataset } from '../../utils/util'
 Page({
   data: {
     appName: APP_NAME,
-    appSlogon: APP_SLOGON
+    appSlogon: APP_SLOGON,
+    mpEnvVersion: wx.getAccountInfoSync().miniProgram.envVersion
   },
 
   onPullDownRefresh() {

@@ -1,1 +1,18 @@
 /* pages/my/index/index.wxss */
+
+page {
+  background-color: #f4f4f5;
+}
+
+.container {
+  padding-bottom: 500rpx;
+}
+
+.hd,
+.bd {
+  margin-bottom: 40rpx;
+}
+
+.bd1 {
+  margin-top: 150rpx;
+}

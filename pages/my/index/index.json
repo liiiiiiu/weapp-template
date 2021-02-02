@@ -1,4 +1,13 @@
 {
   "navigationBarTitleText": "我的",
-  "usingComponents": {}
+  "usingComponents": {
+    "selector": "/components/my/selector/index",
+    "my-hd-l1": "/components/my/head/layout1/index",
+    "my-hd-l2": "/components/my/head/layout2/index",
+    "my-hd-l3": "/components/my/head/layout3/index",
+    "my-bd-l1": "/components/my/body/layout1/index",
+    "my-bd-l2": "/components/my/body/layout2/index",
+    "my-bd-l3": "/components/my/body/layout3/index",
+    "my-ft-l1": "/components/my/foot/layout1/index"
+  }
 }

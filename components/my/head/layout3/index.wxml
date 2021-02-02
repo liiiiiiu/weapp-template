@@ -1,0 +1,58 @@
+<!--components/my/head/layout3/index.wxml-->
+<view class="my-hd__l3">
+  <view class="my-hd">
+    <!-- flex水平布局 -->
+    <view class="my-hd-flex-row">
+      <!-- 头像 -->
+      <view class="my-hd-avatar">
+        <open-data type="userAvatarUrl" default-avatar="{{ icon.user_avatar }}" class="my-hd-open-avatar" />
+      </view>
+      <!-- 垂直布局 -->
+      <view class="my-hd-column">
+        <!-- 昵称 -->
+        <view class="my-hd-nickName">
+          <open-data type="userNickName" lang="zh_CN" class="my-hd-open-nickName" />
+        </view>
+        <!-- id号 -->
+        <view class="my-hd-id">
+          <text class="my-hd-id-text">会员号：</text>
+          <text class="my-hd-id-text">123456789</text>
+        </view>
+        <!-- 数据 -->
+        <view class="my-hd-data-list">
+          <view class="my-hd-data-item">
+            <text class="my-hd-data-num">0</text>
+            <text class="my-hd-data-text">关注</text>
+          </view>
+          <view class="my-hd-data-item">
+            <text class="my-hd-data-num">0</text>
+            <text class="my-hd-data-text">粉丝</text>
+          </view>
+          <view class="my-hd-data-item">
+            <text class="my-hd-data-num">0</text>
+            <text class="my-hd-data-text">点赞</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 操作 -->
+    <view class="my-hd-operation">
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo1.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字1</text>
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo2.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字2</text>
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo3.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字3</text>
+      </view>
+      <view class="my-hd-operation-item">
+        <image src="/assets/icon-demo4.png" mode="widthFix"  class="my-hd-operation-icon" />
+        <text class="my-hd-operation-text">文字4</text>
+      </view>
+    </view>
+  </view>
+</view>

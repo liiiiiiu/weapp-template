@@ -1,0 +1,12 @@
+<!--components/my/foot/layout1/index.wxml-->
+<view class="my-ft__l1">
+  <view class="my-ft">
+    <!-- copyright -->
+    <view class="my-ft-copyright">
+      <image src="/assets/logo.png" mode="widthFix" class="copyright-logo" />
+      <view class="copyright-info">
+        <text class="copyright-text">Weapp Template</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,48 @@
+/* components/my/selector/index.wxss */
+
+.selector {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 30rpx;
+  z-index: 1000;
+  width: calc(100vw - 60rpx);
+  margin: auto;
+  padding: 60rpx 30rpx;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 12rpx;
+}
+
+.selector-block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #e4e7ed;
+}
+
+.selector-block:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom-width: 0;
+}
+
+.selector-item {
+  min-width: 170rpx;
+  margin-right: 20rpx;
+  padding: 20rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.selector-item__active {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+}
